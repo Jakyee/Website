@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root
+{
+    --p:#F46A06;
+    --b:--#000000;
+    --w:--#ffffff;
+    --g:--#555555;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--g);
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+a
+{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+p{
+    color: var(--g);
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li {
+    display: inline-block;
+  
+}
+nav ul li a{
+    display: block;
+    padding: 15px;
+    color: var(--p);
+    font-weight: 500;
+    font-size: 15px;
+}
+nav ul li a:hover{
+    color: var(--b);
+}
+nav{
+    margin-right: 47px;
+}
+.logo{
+    padding-top: 22px;
+    flex-grow: 1;
+  
+
+}
+.btn{
+    background: var(--p);
+    color: #ffffff;
+    padding: 10px 20px;
+    display: inline-block;
+}
+.banner-left h2 {
+    width: 539px;
+    height: 170px;
+    font-weight: 700;
+font-size: 48px;
+line-height: 50px;
+}
+.banner-left p{
+    width: 429px;
+height:72px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+
+}
+.banner-right{
+height: 502px;
+}
+.btn1{
+    background: var(--p);
+    color: #ffffff;
+    padding: 10px 20px;
+    display: inline-block;
+}
+.py{
+    padding: 30px 0px;
+}
+.counter{
+    background: var(--p);
+    color: #ffffff;
+    text-align: center;
+   
+}
+.counter h2 {
+    font-size: 40px;
+    line-height: 50px;
+}
+.display{
+    padding-top: 70px;
+}
+
+.display-right h2{
+    width: 416px;
+    height: 110px;
+    font-weight: 700;
+     font-size: 32px;
+    
+}
+.display-right p{
+    width: 429px;
+    height: 72px;
+}
+.display-right{
+    padding-right: 80px;
+}
+.story1{
+    background: url(/img/food2.jpg);
+    text-align: center;
+    height: 400px;
+    background-size: cover;
+    padding-top: 120px;
+}
+.explore{
+    text-align: center;
+  
+}
+.f1{
+    color: var(--p);
+  
+}
+.FAQ {
+    text-align: center;
+}
+.off{
+    text-align: center;
+}
